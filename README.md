@@ -3,7 +3,7 @@
 
 ## Install
 
-We have MinIO and MinIO Client. Configure your options and run :
+We have MinIO and MinIO Client. Configure your options ( See [here](https://github.com/helm/charts/tree/master/stable/minio#configuration) for full list of option ) and run :
 
 ```shell
 helm install minio -f helm-values.yml stable/minio
